@@ -13,5 +13,5 @@ model.load_weights("model.h5")
 ```
 
 # Model Overview
-The model consists of three convolutional layers and two dense layers. The loss function is categorical-crossentropy and the optimizer is Adam. 
-With 50 epochs of batch size 16, the model performed relatively well with 84.5% accuracy and 0.45 loss. With some more optimizations, we predict the model can reach up to 89% accuracy and 0.4 loss.
+The model consists of three convolutional layers and two dense layers (one being the output layer). The loss function is categorical-crossentropy and the optimizer is Adam. 
+The data was augmented with random rotations, shifts, and zooms to allow for better generalizations. With around 30 epochs, the model performed relatively well with 85.4% train accuracy and 0.38 loss. With some more optimizations or swithcing to a ResNet34 given more processing power, we predict the model can reach up to 89% accuracy and 0.3 loss.
