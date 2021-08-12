@@ -1,0 +1,10 @@
+cff-version: 1.0
+message: "If using this software for research or commercial purposes, please cite this paper as shown below."
+authors:
+  - family-names: Jeelani
+    given-names: Kaif
+    orcid: https://orcid.org/0000-0002-4541-9046
+title: "CNN for HAM-10000 dataset"
+version: 2.0.4
+doi: https://github.com/kjeelani/HAM10000-multiclassifcation 
+date-released: 2021-20-2
