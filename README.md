@@ -1,6 +1,15 @@
 # Overview
 This repository contains a CNN model used to classify seven different types of skin cancers based on the HAM-10000 dataset. The model was made in Keras and saved in the models folder for anyone's use.
 
+
+# Downloading Dataset
+The current repository contains an **empty** folder named _data_. The data folder is empty due to Github's recommendation to keep repositories less than 1GB. Therefore one will have to download the full HAM10000 dataset seperately. The process for doing so is as follows:
+
+1.) Go to the dataset's [webpage](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T).
+2.) Click "Access Dataset" and download as an original zip file
+3.) Extract the zip file for the images. The images may be in two seperate folders. Transfer all files from both folders to the _data_ folder
+
+
 # Loading the Model
 ```python3
 from keras.models import model_from_json
