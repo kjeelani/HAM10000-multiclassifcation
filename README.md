@@ -6,7 +6,9 @@ This repository contains a CNN model used to classify seven different types of s
 The current repository contains an **empty** folder named _data_. The data folder is empty due to Github's recommendation to keep repositories less than 1GB. Therefore one will have to download the full HAM10000 dataset seperately. The process for doing so is as follows:
 
 1.) Go to the dataset's [webpage](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T).
+
 2.) Click "Access Dataset" and download as an original zip file
+
 3.) Extract the zip file for the images. The images may be in two seperate folders. Transfer all files from both folders to the _data_ folder
 
 
